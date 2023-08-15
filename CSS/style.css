@@ -17,10 +17,16 @@ body {
 
 .box {
   background-color: #313a49;
-  max-width: 350px;
   padding: 20px;
   text-align: center;
   position: relative;
+  border-radius: 10px;
+  max-width: 400px;
+}
+@media (max-width: 767px) {
+  .box {
+    max-width: 350px;
+  }
 }
 .box .area-top {
   display: flex;
